@@ -4,6 +4,8 @@
 
 
 // Wrapper for the slide container and indicators
+@import "variables";
+@import "mixins";
 .carousel {
   position: relative;
 }

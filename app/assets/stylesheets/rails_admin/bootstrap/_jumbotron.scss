@@ -2,7 +2,8 @@
 // Jumbotron
 // --------------------------------------------------
 
-
+@import "variables";
+@import "mixins";
 .jumbotron {
   padding: $jumbotron-padding;
   margin-bottom: $jumbotron-padding;

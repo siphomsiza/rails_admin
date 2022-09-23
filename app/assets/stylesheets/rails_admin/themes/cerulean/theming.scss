@@ -2,6 +2,10 @@
 // Bootswatch
 // .rails_admin .sidebar-nav added to prevent same link color
 // ------------------------------------------------------------------
+@import "variables";
+@import "bootstrap/mixins/clearfix";
+@import "bootstrap/mixins/opacity";
+@import "bootstrap/mixins";
 
 @mixin btn-shadow($color){
   @include gradient-vertical-three-colors(lighten($color, 8%), $color, 60%, darken($color, 4%));

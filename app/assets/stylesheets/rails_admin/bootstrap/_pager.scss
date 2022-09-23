@@ -2,7 +2,8 @@
 // Pager pagination
 // --------------------------------------------------
 
-
+@import "variables";
+@import "mixins";
 .pager {
   padding-left: 0;
   margin: $line-height-computed 0;

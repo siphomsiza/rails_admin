@@ -2,7 +2,8 @@
 // Panels
 // --------------------------------------------------
 
-
+@import "variables";
+@import "mixins";
 // Base class
 .panel {
   margin-bottom: $line-height-computed;

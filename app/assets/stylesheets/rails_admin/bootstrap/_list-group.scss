@@ -6,7 +6,8 @@
 // Base class
 //
 // Easily usable on <ul>, <ol>, or <div>.
-
+@import "variables";
+@import "mixins";
 .list-group {
   // No need to set list-style: none; since .list-group-item is block level
   margin-bottom: 20px;

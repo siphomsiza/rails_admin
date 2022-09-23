@@ -5,7 +5,8 @@
 
 // Base styles
 // -------------------------
-
+@import "variables";
+@import "mixins/alerts";
 .alert {
   padding: $alert-padding;
   margin-bottom: $line-height-computed;

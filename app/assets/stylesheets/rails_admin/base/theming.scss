@@ -2,7 +2,10 @@
   RailsAdmin main CSS
   Keep it clean, people
 */
-
+@import "bootstrap/variables";
+@import "bootstrap/mixins/clearfix";
+@import "bootstrap/mixins/opacity";
+@import "bootstrap/mixins";
 $avatar-size: 30px;
 
 body.rails_admin {

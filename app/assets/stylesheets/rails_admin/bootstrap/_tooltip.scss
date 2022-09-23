@@ -4,6 +4,8 @@
 
 
 // Base class
+@import "variables";
+@import "mixins";
 .tooltip {
   position: absolute;
   z-index: $zindex-tooltip;

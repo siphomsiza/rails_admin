@@ -4,6 +4,8 @@
 
 
 // Mixin and adjust the regular image class
+@import "variables";
+@import "mixins";
 .thumbnail {
   display: block;
   padding: $thumbnail-padding;

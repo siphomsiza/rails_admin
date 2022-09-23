@@ -2,7 +2,8 @@
 // Close icons
 // --------------------------------------------------
 
-
+@import "variables";
+@import "mixins";
 .close {
   float: right;
   font-size: ($font-size-base * 1.5);

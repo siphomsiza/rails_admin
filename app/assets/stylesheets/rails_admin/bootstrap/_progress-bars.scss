@@ -5,7 +5,8 @@
 
 // Bar animations
 // -------------------------
-
+@import "variables";
+@import "mixins";
 // WebKit
 @-webkit-keyframes progress-bar-stripes {
   from  { background-position: 40px 0; }
