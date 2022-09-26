@@ -20,8 +20,10 @@ module RailsAdmin
 
         def type
           case property.type.to_s
-          when 'Array', 'Hash', 'Money'
+          when 'Array', 'Money'
             :serialized
+          when 'Hash'
+           :json  
           when 'BigDecimal'
             :decimal
           when 'Boolean', 'Mongoid::Boolean'
